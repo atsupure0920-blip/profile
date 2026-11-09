@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>わたしのプロフィール</title>
+</head>
+<body>
+
+  <h1>あつき</h1>
+
+  <p>遠山篤生です。よろしくお願いします。</p>
+
+  <img src="img/photo1.png" alt="あつきのプロフィール写真" width="300">
+
+  <h2>好きなもの・趣味</h2>
+  <ul>
+    <li>ゲーム</li>
+    <li>ランニング</li>
+    <li>カレー</li>
+    <li>散歩</li>
+  </ul>
+
+  <h2>好きな食べ物 ベスト3</h2>
+  <ol>
+    <li>カレー</li>
+    <li>お米</li>
+    <li>焼肉</li>
+  </ol>
+
+  <h2>おすすめのWebページ</h2>
+  <p>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+  </p>
+  
+  <h2>すきな食べ物とその理由</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>食べ物</th>
+        <th>理由</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>カレー</td>
+        <td>とりあえずうまい</td>
+      </tr>
+      <tr>
+        <td>お米</td>
+        <td>これがないとはじまらない</td>
+      </tr>
+      <tr>
+        <td>焼肉</td>
+        <td>米に合うランキング１位</td>
+      </tr>
+    </tbody>
+  </table>
+
+    <h2>このページの感想を送る</h2>
+  <form>
+    <dl>
+      <dt><label for="name">名前</label></dt>
+            <dd><input type="text" id="name" name="name" required placeholder="ねこ太郎"></dd>
+
+      <dt>よかったところ</dt>
+      <dd>
+        <label><input type="radio" name="good" value="hobby">好きなもの・趣味</label>
+        <label><input type="radio" name="good" value="best3">好きな食べ物 ベスト3</label>
+        <label><input type="radio" name="good" value="link">おすすめのWebページ</label>
+        <label><input type="radio" name="good" value="table">すきな食べ物とその理由</label>
+      </dd>
+
+      <dt><label for="comment">感想</label></dt>
+      <dd><textarea id="comment" name="comment" rows="5" cols="40"></textarea></dd>
+    </dl>
+
+    <button type="submit">送信する</button>
+  </form>
+</body>
+</html>
