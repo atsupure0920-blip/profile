@@ -1,0 +1,19 @@
+body {
+    font-family: "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+h1 {
+    color: #2a5d9f;
+}
+
+h2 {
+    border-bottom: 2px solid #2a5d9f;
+    padding-bottom: 4px;
+}
+table, th, td {
+    border: 1px solid #333333;
+}
+.favorite {
+    color: #cc3300;
+    font-weight: bold;
+}
