@@ -9,6 +9,7 @@ h1 {
 h2 {
     border-bottom: 2px solid #2a5d9f;
     padding-bottom: 4px;
+    margin-top: 40px;
 }
 table, th, td {
     border: 1px solid #333333;
@@ -16,4 +17,31 @@ table, th, td {
 .favorite {
     color: #cc3300;
     font-weight: bold;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header, footer {
+    background-color: #e3edf9;
+    padding: 16px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    border-radius: 999px;
+    color: #333333;
+}
+
+th, td {
+    padding: 8px 12px;
 }
